@@ -1,0 +1,10 @@
+Changes
+Makefile.PL
+MANIFEST
+Phoneme.pm
+README
+MOBYREADME
+test.pl
+tests.pl
+Phoneme/dict/EN/MobyPron.txt
+build.pl
