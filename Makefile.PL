@@ -6,7 +6,8 @@ WriteMakefile(
     'NAME'		=> 'Lingua::Phoneme',
     'VERSION_FROM'	=> 'Phoneme.pm', # finds $VERSION
     'PREREQ_PM'		=> {
-		DBI=>'0.1',
+		DBI=>0.1,
+		"DBD::mysql"=>0.1,
 	}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'Phoneme.pm', # retrieve abstract from module

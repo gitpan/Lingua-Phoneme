@@ -1,6 +1,6 @@
 #! perl -w
 package Lingua::Phoneme;
-our $VERSION = 0.01;
+our $VERSION = 0.011;
 
 use strict;
 use warnings;
